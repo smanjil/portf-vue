@@ -1,8 +1,11 @@
 <template>
     <div class="hello">
-        <h1>{{ msg }}</h1>
-
-        <router-link to="/foo"> >>>> </router-link>
+        <div class="container">
+            <h2>{{ msg }}</h2>
+        </div>
+        <div class="navigation">
+            <router-link to="/foo"><span class="glyphicon glyphicon-arrow-right"></span></router-link>
+        </div>
     </div>
 </template>
 

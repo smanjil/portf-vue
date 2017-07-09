@@ -1,9 +1,12 @@
 <template>
     <div class="hello">
-        <h1>{{ msg }}</h1>
-
-        <router-link to="/bar"> >>>> </router-link> &nbsp; &nbsp;
-        <router-link to="/"> <<<< </router-link>
+        <div class="container">
+            <h2>{{ msg }}</h2>
+        </div>
+        <div class="navigation">
+            <router-link to="/bar"><span class="glyphicon glyphicon-arrow-right"></span></router-link> &nbsp; &nbsp;
+            <router-link to="/"><span class="glyphicon glyphicon-arrow-left"></span></router-link>
+        </div>
     </div>
 </template>
 

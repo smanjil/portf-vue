@@ -18,7 +18,23 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
-        color: #2c3e50;
+        color: white;
         margin-top: 60px;
+    }
+
+    .navigation{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 50px;
+        background-color: black;
+        opacity: 0.3;
+    }
+
+    .navigation span{
+        line-height: 1.5em;
+        color: grey;
+        font-size: 30px;
     }
 </style>
